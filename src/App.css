@@ -1,0 +1,356 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.outer-box{
+  width: 955px;
+  position: fixed;
+  margin: 0 auto;
+  background-color: #EEEEEE;
+}
+
+.main-box-col{
+  width: 535px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.price-box1{
+  width: 252px;
+  height: 444px;
+  float: left;
+  background-color: white;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px 0 rgba(68, 66, 66, 0.2), 0 6px 20px 0 rgba(57, 55, 55, 0.19);
+}
+
+.text-main-col{
+  width: 150px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  /*border: 2px solid teal;*/
+}
+.free{
+  color: rgba(0, 0, 0, 0.821);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: justify;
+}
+.text2{
+  color: rgb(140, 137, 137);
+  font-size: 11.44px;
+  font-weight: 500;
+  text-align: justify;
+  margin-top: -18px;
+}
+.dolar{
+  color: black;
+  text-align: justify;
+  font-size: 33px;
+  font-weight: 700;
+  color:  rgba(15, 14, 14, 0.848);
+ margin-top: 0px;
+ margin-top: 17px;
+}
+.border-color{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 11px;
+  background-color: #16213E;
+}
+
+.border-main-col{
+  width: 100px;
+  height: 18px;
+  float: left;
+  margin-top: 38px;
+  border: 2px solid rd;
+
+  }
+
+  i{
+    color: white;
+    
+  }
+  .border-main-col2{
+    width: 160px;
+    height: 18px;
+    float: left;
+     margin-top: 10px;
+    border: 2px solid rd;
+    }
+    .border-main-col3{
+      width: 100px;
+      height: 10px;
+      float: left;
+      border: 2px solid ed;
+      }
+.border-color2{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 100;
+  margin-top: px;
+  background-color: #16213E;
+}
+.user-text{
+  color: rgba(0, 0, 0, 0.745);
+  width: 48px;
+  height: 10px;
+  margin-top: -18px;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.user-text2{
+  color: rgba(0, 0, 0, 0.745);
+  width: 148px;
+  height: 10px;
+  margin-top: -18px;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.border-color3{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 11px;
+  margin-top: 1px;
+  background-color: #16213E;
+}
+
+.user-text3{
+  color: rgba(0, 0, 0, 0.745);
+  width: 76px;
+  height: 10px;
+  margin-top: -18px;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.blue-color-but1{
+  width: 190px;
+  height: 36px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.862);
+  font-size: 11.20px;
+  border-radius: 30px;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  margin-top: 93px;
+  background-color: #16213E;
+
+}
+.price-box2{
+  width: 252px;
+  height: 444px;
+  float: left;
+  border-radius: 10px;
+  background-color: #16213E;
+  box-shadow: 0 4px 8px 0 rgba(68, 66, 66, 0.2), 0 6px 20px 0 rgba(57, 55, 55, 0.19);
+}
+
+.tet-blue-color{
+  width: 150px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.pro{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+}
+.blue-box-text{
+  color: rgb(186, 181, 181);
+  font-size: 11.49px;
+  font-weight: 400;
+  text-align: justify;
+  margin-top: -18px;
+}
+.dolar-blue{
+  color: white;
+  text-align: justify;
+  font-size: 33px;
+  font-weight: 700;
+ margin-top: 0px;
+ margin-top: 17px;
+}
+.border-box2-col{
+  width: 100px;
+  height: 18px;
+  float: left;
+  margin-top: 38px;
+  border: 2px solid rd;
+
+}
+.box2-border{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: rgb(240, 235, 235);
+}
+
+
+.user-text-blue{
+  color: rgb(240, 227, 227);
+  width: 48px;
+  height: 10px;
+  margin-top: -18px;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.text-blue-color2{
+  width: 160px;
+  height: 18px;
+  float: left;
+   margin-top: 10px;
+  border: 2px solid rd;
+}
+.box2-border2{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-top: px;
+  background-color: rgb(240, 235, 235);
+}
+.user-text-blue2{
+  color: rgb(240, 227, 227);
+  width: 119px;
+  height: 10px;
+  margin-top: 3px;
+  margin-top: -18px;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.text-blue-color3{
+  width: 160px;
+  height: 18px;
+  float: left;
+   margin-top: 12px;
+  border: 2px solid rd;
+}
+.box2-border3{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-top: 3px;
+  background-color: rgb(240, 235, 235);
+}
+.user-text-blue3{
+  color: rgb(240, 227, 227);
+  width: 105px;
+  height: 10px;
+  margin-top: 3px;
+  margin-top: -18px;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.text-blue-color4{
+  width: 160px;
+  height: 18px;
+  float: left;
+   margin-top: 12px;
+  border: 2px solid rd;
+}
+.box2-border4{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-top: 3px;
+  background-color: rgb(240, 235, 235);
+}
+
+.user-text-blue4{
+  color: rgb(240, 227, 227);
+  width: 88px;
+  height: 10px;
+  margin-top: 3px;
+  margin-left: 20px;
+  margin-top: -18px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.text-blue-color5{
+  width: 160px;
+  height: 18px;
+  float: left;
+   margin-top: 12px;
+  border: 2px solid rd;
+}
+
+.box2-border5{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-top: 3px;
+  background-color: rgb(240, 235, 235);
+}
+
+.user-text-blue5{
+  color: rgb(240, 227, 227);
+  width: 117px;
+  height: 10px;
+  margin-top: 3px;
+  margin-left: 20px;
+  font-size: 12px;
+  margin-top: -18px;
+  font-weight: 300;
+}
+
+.box2-button{
+  width: 190px;
+  height: 36px;
+  margin: 0 auto;
+  color: rgb(78, 76, 76);
+  font-size: 11.33px;
+  border-radius: 30px;
+  font-weight: 600;
+  margin-top: 35px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.974);
+}
+
+
+
