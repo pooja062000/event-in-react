@@ -1,7 +1,4 @@
-import React from 'react';
-
-
-  
+import React from 'react' 
 class Events extends React.Component{
 
 constructor(props){
@@ -57,7 +54,9 @@ render() {
             </div>
             
             <h1>Free {this.state.name}</h1>
-            <button onClick={this.clickFunction}>Subscribe</button>
+            <div className="white-butt-box">
+            <button onClick={this.clickFunction} className='box1-color-but1'>Subscribe</button>
+            </div>
             </div>
             <div className="price-box2">
                 
@@ -109,9 +108,9 @@ render() {
             </div>
             </div>
 
-            
+            <div className="white-butt-box">
             <button className="box2-color-but1">Subscribe</button>
-
+</div>
         </div>
         </div>
        </div>
